@@ -6,7 +6,7 @@ Well To execute you have to go to the roblox website, open the console by pressi
 
 2 ● the code has some bugs, for example, when an account is banned, it will not continue to follow users on roblox. i recommend that you re-run the code.
 
-3 ● If you get a 403 error, don't worry, the code will continue to follow in roblox.
+3 ● If you get a 403 error, don't worry, the code will continue to follow users in roblox.
 
 # why are there multiple js files?
 Because there are different functions of the code to follow users for example:
