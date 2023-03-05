@@ -1,4 +1,5 @@
-var timemilisec = 300000
+var timemilisec = 300000 //Minutes to follow people Min: 5 minutes bc roblox ratelimit API 
+// if you have ratelimit, you will have to wait 1 hour to run the code again.
 var ids = [
   '1', //put the id here to follow the person.
   '2',
