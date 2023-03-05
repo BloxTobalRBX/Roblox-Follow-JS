@@ -1,5 +1,6 @@
-var limitid = 9999999
-var timemilisec = 300000
+var limitid = 9999999 //Put the limit id like will follow users using random numbers with the limit, if you want to follow new accounts, add 9 again.
+var timemilisec = 300000 //Minutes to follow people Min: 5 minutes bc roblox ratelimit API 
+// if you have ratelimit, you will have to wait 1 hour to run the code again.
 
 function follow(id){
   $.post('https://friends.roblox.com/v1/users/'+ id +'/follow', function(data){
