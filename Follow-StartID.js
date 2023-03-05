@@ -1,5 +1,7 @@
 var StartIdFollow = 1561 //Put the id to start following users 1 at once
-var timemilisec = 300000 //Minutes to follow people Min: 5 minutes bc roblox ratelimit api
+var timemilisec = 300000 //Minutes to follow people Min: 5 minutes bc roblox ratelimit API 
+// if you have ratelimit, you will have to wait 1 hour to run the code again.
+
 function follow(id){
 $.post('https://friends.roblox.com/v1/users/'+ id +'/follow', function(data){
   if (data['success'] == false){
