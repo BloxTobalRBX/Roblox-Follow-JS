@@ -1,10 +1,10 @@
 var timemilisec = 300000
 var ids = [
-  '4290165710',
-  '4352135418',
-  '2563609400',
-  '3571815529',
-  '3871492061'
+  '1', //put the id here to follow the person.
+  '2',
+  '3',
+  '4',
+  '5'
   ]
 
 ids.forEach(function (el, index) {
